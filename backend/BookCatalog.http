@@ -1,0 +1,37 @@
+@HostAddress = http://localhost:5009
+
+###
+
+GET {{HostAddress}}/api/books
+Accept: application/json
+
+###
+
+POST {{HostAddress}}/api/books
+Content-Type: application/json
+
+{
+  "title": "A Gyűrűk Ura",
+  "author": "J.R.R. Tolkien",
+  "year": 1954
+}
+
+###
+
+GET {{HostAddress}}/api/books/IDE_KELL_EGY_ID
+Accept: application/json
+
+###
+
+PUT {{HostAddress}}/api/books/IDE_KELL_EGY_ID
+Content-Type: application/json
+
+{
+  "title": "A Gyűrűk Ura - A Gyűrű Szövetsége",
+  "author": "J.R.R. Tolkien",
+  "year": 1954
+}
+
+###
+
+DELETE {{HostAddress}}/api/books/IDE_KELL_EGY_ID
