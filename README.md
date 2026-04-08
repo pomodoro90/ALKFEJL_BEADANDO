@@ -3,6 +3,7 @@
 Ez a projekt az Alkalmazásfejlesztés tantárgy beadandó feladataként készült. A rendszer egy e2e (end-to-end) automatizált megoldás könyvek nyilvántartására, fejlesztéstől a telepítésig.
 
 Csapatmunkában végzett feladatmegosztás
+
 **Frontend (Vaska Henrietta/GitHub:ahenus):** Angular keretrendszer, OpenAPI alapú API integráció, UI komponensek, Pagination kezelése.
 
 **Backend & DevOps (Kovács Tamás/GitHub:pomodoro90):** ASP.NET Core API, MongoDB integráció, Dockerizáció, GitHub Actions CI Pipeline, Kubernetes manifest fájlok.
