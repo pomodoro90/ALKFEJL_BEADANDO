@@ -1,4 +1,4 @@
-# Könyv Nyilvántartó Rendszer
+# Könyvnyilvántartó Rendszer
 
 Ez a projekt az Alkalmazásfejlesztés tantárgy beadandó feladataként készült. A rendszer egy e2e (end-to-end) automatizált megoldás könyvek nyilvántartására, fejlesztéstől a telepítésig.
 
