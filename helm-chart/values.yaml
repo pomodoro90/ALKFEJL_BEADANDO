@@ -1,0 +1,15 @@
+# Backend beállítások
+backend:
+  replicaCount: 1
+  image: "beadando-mongo/backend:latest"
+  port: 8080
+
+# Frontend beállítások
+frontend:
+  replicaCount: 1
+  image: "beadando-mongo/frontend:latest"
+  port: 80
+
+# Adatbázis beállítások
+mongodb:
+  port: 27017
